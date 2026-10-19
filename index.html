@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố Cục Trang Web Responsive Với Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- 1. Header -->
+        <header class="header">
+            <h1>Hệ Thống Website Tin Tức</h1>
+        </header>
+
+        <!-- 2. Navigation -->
+        <nav class="nav">
+            <a href="#">Trang chủ</a>
+            <a href="#">Tin tức</a>
+            <a href="#">Sản phẩm</a>
+            <a href="#">Giới thiệu</a>
+            <a href="#">Liên hệ</a>
+        </nav>
+
+        <!-- 3. Main Container (Chứa Content & Sidebar) -->
+        <div class="main-container">
+            <main class="content">
+                <h2>Nội Dung Chính (Main Content)</h2>
+                <p>Đây là khu vực hiển thị bài viết, tin tức hoặc nội dung trọng tâm của trang web. Sử dụng CSS Flexbox giúp phần nội dung này tự động co giãn linh hoạt chiếm 3 phần chiều rộng trên giao diện máy tính.</p>
+                <p>Flexbox giúp việc quản lý bố cục trở nên đơn giản và linh hoạt hơn rất nhiều so với các phương pháp căn chỉnh truyền thống như float hay inline-block.</p>
+            </main>
+
+            <aside class="sidebar">
+                <h3>Cột Phụ (Sidebar)</h3>
+                <ul>
+                    <li>Tin nổi bật 1</li>
+                    <li>Tin nổi bật 2</li>
+                    <li>Quảng cáo banner</li>
+                    <li>Liên kết hữu ích</li>
+                </ul>
+            </aside>
+        </div>
+
+        <!-- 4. Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 Bài Thực Hành Flexbox Responsive Layout. Tất cả quyền được bảo lưu.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
